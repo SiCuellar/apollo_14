@@ -1,0 +1,9 @@
+<h2> Mission Control </h2>
+
+<article>
+      <% @Astronauts.each do |ast| %>
+        <h2> Name: <%= ast.name %></h2>
+        <p>Age: <%= ast.age %> </p>
+        <p>Job: <%= ast.job %> </p>
+      <% end %>
+</article>
